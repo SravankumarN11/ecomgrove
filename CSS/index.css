@@ -1,0 +1,315 @@
+
+ 
+ body{
+    margin: 0px;
+    padding: 0px;
+ }
+
+
+/*Css Styles for Rgukt Logo*/
+ .logo{
+    font-size:30px;
+    color:white;
+    padding-left: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Tangerine', cursive; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.searchtext{
+    color:white;
+}
+.inputText{
+    width:450px;
+}
+.iconfontsize{
+    font-size: 18px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+  }
+  ul li i{
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.imageall{
+    border-radius: 50%;
+    border: 2px solid aqua;
+    height:60px;
+    width:60px;
+}
+.imageall:hover{
+    transform: scale(1.05);
+}
+.paddingleft{
+    padding-left: 15px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid lightslategray;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    overflow-x: scroll;
+    gap:80px;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.imageText{
+    text-align: center;
+    color: black;
+    width:60px;
+
+}
+/* Increase the transition duration for the carousel 
+.carousel-inner {
+    transition-duration: 1.5s;
+}*/
+
+
+.carouselBorder{
+    padding:5px;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+.carouselhw{
+    width:100%;
+    height: 300px;
+
+}
+
+
+
+/* Style for the carousel control buttons on hover */
+ /*.carousel-control-prev:hover,
+.carousel-control-next:hover {
+ background-color:white;
+
+}*/
+
+.scroll3imgbutton{
+    width: 100%;
+}
+
+ /* Increase the size of the carousel control icons */
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+
+     width: 70px; /* Adjust the width as needed */
+     height: 70px; /* Adjust the height as needed */
+    /* background-color:blue;*/
+ }
+
+
+
+/*offer zone classes*/
+h6{
+    color:blue;
+}
+.topoffersh1{
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cardsflex{
+    display:flex;
+    justify-content: center;
+    overflow-x:scroll; 
+    padding-top: 50px;
+    gap:50px;
+}
+.rounded{
+    border-radius: 21px;
+    width:150px;
+    height:200px;
+}
+.rounded:hover{
+    transform: scale(1.05);
+}
+
+
+/*All products zone*/
+.mainflex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: scroll;
+}
+.innerflex{
+    display:flex;
+    overflow-x: scroll;
+    gap:21px;
+}
+.card{
+    border:none;
+    }
+.card-title{
+    color:blue;
+    font-size:18px;
+}
+.card-img-top{
+    height:200px;
+    padding-left: 30px;
+    width:90%;
+}
+.card-img-top:hover{
+    transform:scale(1.05);
+}
+.card-text1{
+    margin-top: 0px;
+
+}
+.addtocart{
+    margin: 0;
+    padding:0;
+}
+strike{
+    color: gray;
+}
+a{
+    color: initial;
+}
+
+.productsforyouh1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textalign{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+ 
+ /* Base styles for all devices 
+        body {
+            font-size: 16px;
+        }
+*/
+        /* Media query for tablets */
+        @media (min-width: 768px) and (max-width: 1024px) {
+            /*offer zone classes*/
+        .topoffersh1{
+            font-size: 30px;
+            padding-left: 550px;
+            padding-top: 50px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .card-title{
+            font-size: 11px;
+        }
+        .btn{
+            font-size: 5px;
+        }
+        .btn-primary{
+            font-size: 6px;
+        }
+       
+        
+        
+        }
+
+
+        /* Media query for laptops and larger screens */
+        @media (min-width: 1025px) {
+    
+            
+        }
+        @media (min-resolution: 192dpi) {
+            /* Your CSS styles for high-resolution displays go here */
+          }
+          
+
+        /* Media query for mobile devices */
+        @media (max-width: 767px) {
+            .logo{
+                padding-left: 5px;
+
+            }
+            .inputText{
+                width:100%;
+                padding: 0px 2px ;
+            
+            }
+            .imageall{
+                border-radius: 50%;
+                border: 2px solid aqua;
+                height:50px;
+                width:50px;
+            }
+            .imageText{
+                text-align: center;
+                width:50px;
+            }
+            .flex{
+                gap:50px;
+            
+            }
+            .carouselBorder{
+                padding:0px;
+                border: none;
+            }
+            .carouselhw{
+                height:200px;
+                width:100%;
+            }
+            .carousel-control-prev:hover,
+            .carousel-control-next:hover {
+            background-color:initial;
+
+            }
+             /* Increase the size of the carousel control icons */
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+
+             width: 100px; /* Adjust the width as needed */
+            height: 50px; /* Adjust the height as needed */
+            background-color:initial;
+ }
+            .mainflex{
+                display:flex;
+                flex-direction: column;
+                gap:30px;
+            }
+
+
+            /*offer zone classes*/
+                .topoffersh1{
+                    font-size: 14px;
+                 padding-left: 10px;
+                    padding-top: 50px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                .cardsflex{
+               display:flex;
+               justify-content:initial;
+                  overflow-x: scroll;
+             padding-top: 20px;
+             gap:25px;
+            }
+
+            .rounded{
+              border-radius: 21px;
+            width:140px;
+            height:100px;
+            }
+                .rounded:hover{
+                 transform: scale(1.05);
+                }
+              /*  .card{
+                    border:1px solid gray;
+                }*/
+        
+
+        }
+
+
+
+   
+
+

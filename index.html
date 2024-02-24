@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./faviconimage/favicon-32x32.png">
+    <title>RGUKT-Mart</title>
+    <!--Included BootStrap Link  Here-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+
+    <!--Included Font Styles link Here(Google fonts)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    
+
+    <!--Included Icons Link Here(Fontawesom)-->
+    <script src="https://kit.fontawesome.com/bdb9c44a6d.js" crossorigin="anonymous"></script>
+
+    <!--Included Css Link Here-->
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+
+
+</head>
+<body >
+    <!--Main Navabar-->
+    <nav class="navbar bg-primary navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <div class="logo">
+            Rgukt~mart
+        </div></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 inputText" type="search" placeholder="Search here what you want" aria-label="Search">
+          <button class="btn btn-outline-success searchtext" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white iconfontsize" aria-current="page" href="./index.html"><i class="fa-solid fa-house"></i><b>Home</b></a>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white iconfontsize" href="#"><i class="fa-solid fa-user "></i><b>Login</b></a>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white iconfontsize" href="#"><i class="fa-solid fa-cart-shopping"></i><b>Cart</b></a>
+          </li>
+
+    </div>
+    
+  </div>
+ 
+      </nav>
+      <!--End of the Main NavBar-->
+
+    <!--All Scrolling Items-->
+    <div class="paddingleft flex">
+      
+      
+
+    
+      <div>
+        <a href="">  <img src="./mainpageimages/grocery.png" class=" img-thumbnail imageall" alt="...">
+          <p class="imageText">Grocery</p></a>
+        </div>
+
+
+     <div>
+    <a href="">  <img src="./mainpageimages/imageedit_2_7306305792.png" class=" img-thumbnail imageall" alt="...">
+      <p class="imageText">Books</p></a>
+    </div>
+
+    
+    <div>
+    <a href="">  <img src="./mainpageimages/fruitsimage.png" class=" img-thumbnail imageall" alt="...">
+      <p class="imageText">Fruits</p></a>
+    </div>
+
+
+    <div>
+      <a href=""> <img src="./mainpageimages/chocolates.png" class=" img-thumbnail imageall" alt="...">
+        <p class="imageText">Chocolates</p></a>
+      </div>
+  
+
+
+
+
+    <div>
+      <a href="">  <img src="./mainpageimages/snacks (2).png" class=" img-thumbnail imageall" alt="...">
+        <p class="imageText">Snacks</p></a>
+      </div>
+
+  
+
+
+
+
+
+      
+    
+    
+
+    </div><!--End of scrolling items-->
+
+
+
+
+
+
+
+    <!--Scrolling Images -->
+    <div id="carouselExampleInterval" class="carousel slide carouselBorder" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+        <a href=""> <img src="./scrollimages/scroll1.jpeg" class="d-block w-100 carouselhw" alt="..."></a>
+         
+        </div>
+        <div class="carousel-item"   data-bs-interval="2000"     >
+        <a href=""><img src="./scrollimages/scroll2.jpg" class="d-block w-100 carouselhw" alt="..."></a>
+        </div>
+
+        <div class="carousel-item " data-bs-interval="2000">
+      <a onclick="scroll3()" href=""><img src="./scrollimages/scroll3.jpg" class="d-block w-100 carouselhw" alt="..."></a>
+    
+    </div>
+
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div><!--End of the scxrolling images section-->
+
+
+
+
+
+
+    <div class="cardsflex"><!--startinf of offers zone cardsflex-->
+      <div>
+        <h1 class="topoffersh1">Top Offers</h1>
+      </div>
+        <div class="border1">
+      <a href=""> <img src="./offerimages/offerimage.jpg" class="rounded " alt="...">
+       <h6 style="text-align: center;padding-top: 5px;">Smart Watch</h6>
+       <p style="text-align: center;color:green">From $21</p>
+       <p style="text-align: center;color:grey;">Grab the Best Offer</p>
+       </a>
+      </div>   
+
+
+      <div class="border1">
+        <a href=""> <img src="./offerimages/offerimage1.jpg" class="rounded " alt="...">
+         <h6 style="text-align: center;padding-top: 5px;">Guitar</h6>
+         <p style="text-align: center;color:green">From $33</p>
+         <p style="text-align: center;color:grey;">Grab the Best Offer</p>
+         </a>
+        </div>  
+        
+        
+        <div class="border1">
+          <a href=""> <img src="./offerimages/offerimage2.jpg" class="rounded " alt="...">
+           <h6 style="text-align: center;padding-top: 5px;">EarBuds</h6>
+           <p style="text-align: center;color:green">From $15</p>
+           <p style="text-align: center;color:grey;">Grab the Best Offer</p>
+           </a>
+          </div>  
+          
+          
+          <div class="border1">
+            <a href=""> <img src="./offerimages/offerimage3.jpg" class="rounded " alt="...">
+             <h6 style="text-align: center;padding-top: 5px;">Rakhi Gift</h6>
+             <p style="text-align: center;color:green">From $2</p>
+             <p style="text-align: center;color:grey;">Grab the Best Offer</p>
+             </a>
+            </div> 
+            
+            
+            <div class="border1">
+              <a href=""> <img src="./offerimages/offerimage4.jpg" class="rounded " alt="...">
+               <h6 style="text-align: center;padding-top: 5px;">Shoe Stand</h6>
+               <p style="text-align: center;color:green">From $5</p>
+               <p style="text-align: center;color:grey;">Grab the Best Offer</p>
+               </a>
+              </div>  
+              
+              
+         <div class="border1">
+         <a href=""> <img src="./offerimages/offerimage5.jpg" class="rounded " alt="...">
+       <h6 style="text-align: center;padding-top: 5px;">Fastrack</h6>
+       <p style="text-align: center;color:green">From $10</p>
+       <p style="text-align: center;color:grey;">Grab the Best Offer</p>
+       </a>
+      </div>
+
+
+   
+   
+</div><!--End of offerzone cards flex-->
+    
+
+<!--==============================================================================-->
+
+<!--starting of all products section-->
+
+<div class="textalign"><!--Starting of text-align-->
+
+<h1 class="productsforyouh1">All Products</h1>
+
+<div class="mainflex"><!--Starting of products main flex section-1-->
+
+  <div class="innerflex"><!--Starting of inner flex Section-1-->
+    <!--product1-->
+    <div class="card" style="width: 18rem;">
+    <a  href=""><img src="./productimages/Dairysilk.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">DairySilks(2)</h5>
+        <p class="card-text">Available</p>
+        <p class="card-text1"> Price: &#8377;150 &nbsp;<strike>&#8377;200</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+      
+    </div><!--ending of product1-->
+     
+
+     <!--product2-->
+     <div class="card" style="width: 18rem;">
+     <a href=""> <img src="./productimages/choco.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lotte Choco pie</h5>
+        <p class="card-text">Available</p>
+        <p class="card-text1"> Price: &#8377;10 &nbsp;<strike>&#8377;15</strike></p>
+        </div></a>
+        <div class="card-body addtocart">
+          <a href="#" class="btn btn-primary ">ADD TO CART</a>
+        </div>
+    
+    
+       </div>  <!--ending of product2-->
+  
+
+    
+
+
+
+   </div><!--Ending of innner flex section-1-->
+
+
+
+
+
+
+   <div class="innerflex"><!--Starting of inner flex section-2-->
+    <!--product3-->
+    <div class="card" style="width: 18rem;">
+    <a href="">  <img src="./productimages/soyasticks.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Soyasticks</h5>
+        <p class="card-text">Available </p>
+        <p class="card-text1"> Price: &#8377;40 &nbsp;<strike>&#8377;50</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+  
+    
+    </div><!--ending of product3-->
+     
+
+     <!--product4-->
+     <div class="card" style="width: 18rem;">
+    <a href=""> <img src="./productimages/little hearts.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Little hearts</h5>
+        <p class="card-text">Available </p>
+        <p class="card-text1"> Price: &#8377;5 &nbsp;<strike>&#8377;7.5</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+  
+    
+   </div> <!--ending of product4-->
+
+
+    
+
+
+
+   </div><!--Ending of innner flex section-2-->
+
+
+
+   <div class="innerflex"><!--Starting of inner flex section-3-->
+    <!--product5-->
+    <div class="card" style="width: 18rem;">
+    <a href="">  <img src="./productimages/laysblue.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lays</h5>
+        <p class="card-text">Available</p>
+        <p class="card-text1"> Price: &#8377;10 &nbsp;<strike>&#8377;15.5</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+  
+    
+    </div><!--ending of product5-->
+
+     <!--product6-->
+     <div class="card" style="width: 18rem;">
+    <a href="">  <img src="./productimages/cheese cookies.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cheese Cookies </h5>
+        <p class="card-text">Available</p>
+        <p class="card-text1"> Price: &#8377;80 &nbsp;<strike>&#8377;149.3</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+  
+    
+    </div><!--ending of product6-->
+     
+     
+
+  
+
+   </div><!--Ending of innner flex section-3-->
+
+  
+
+
+
+
+
+
+
+</div><!--End of mainflex section-1-->
+
+</div><!--Ending of text-align -->
+
+      
+
+<!--=============================================================================================-->
+<!--=============================================================================================-->
+
+
+
+<div class="textalign"><!--Starting of text-align-->
+
+<div class="mainflex"><!--Starting of products main flex section-2-->
+
+  <div class="innerflex"><!--Starting of inner flex Section-1-->
+    <!--product1-->
+    <div class="card" style="width: 18rem;">
+    <a  href=""><img src="./productimages/30notes.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Note Book</h5>
+        <p class="card-text">Available</p>
+        <p class="card-text1"> Price: &#8377;30 &nbsp;<strike>&#8377;42.3</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+      
+    </div><!--ending of product1-->
+     
+
+     <!--product2-->
+     <div class="card" style="width: 18rem;">
+     <a href=""> <img src="./productimages/bluepenbox.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pen Box(20)</h5>
+        <p class="card-text">Available</p>
+        <p class="card-text1"> Price: &#8377;60 &nbsp;<strike>&#8377;82.3</strike></p>
+        </div></a>
+        <div class="card-body addtocart">
+          <a href="#" class="btn btn-primary ">ADD TO CART</a>
+        </div>
+    
+    
+       </div>  <!--ending of product2-->
+  
+
+    
+
+
+
+   </div><!--Ending of innner flex section-1-->
+
+
+
+
+
+
+   <div class="innerflex"><!--Starting of inner flex section-2-->
+    <!--product3-->
+    <div class="card" style="width: 18rem;">
+    <a href="">  <img src="./productimages/Mysoorsandelsoap.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mysore Sandal</h5>
+        <p class="card-text">Available </p>
+        <p class="card-text1"> Price: &#8377;150 &nbsp;<strike>&#8377;230</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+  
+    
+    </div><!--ending of product3-->
+     
+
+     <!--product4-->
+     <div class="card" style="width: 18rem;">
+    <a href=""> <img src="./productimages/surf excel powder.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surf-XL Powder</h5>
+        <p class="card-text">Available </p>
+        <p class="card-text1"> Price: &#8377;10 &nbsp;<strike>&#8377;12.5</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+  
+    
+   </div> <!--ending of product4-->
+
+
+    
+
+
+
+   </div><!--Ending of innner flex section-2-->
+
+
+
+   <div class="innerflex"><!--Starting of inner flex section-3-->
+    <!--product5-->
+    <div class="card" style="width: 18rem;">
+    <a href="">  <img src="./productimages/sweetbox.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sweet Box</h5>
+        <p class="card-text">Available</p>
+        <p class="card-text1"> Price: &#8377;150 &nbsp;<strike>&#8377;250</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+  
+    
+    </div><!--ending of product5-->
+
+     <!--product6-->
+     <div class="card" style="width: 18rem;">
+    <a href="">  <img src="./productimages/cake.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cake </h5>
+        <p class="card-text">Available</p>
+        <p class="card-text1"> Price: &#8377;300 &nbsp;<strike>&#8377;430</strike></p>
+      </div></a>
+      <div class="card-body addtocart">
+        <a href="#" class="btn btn-primary ">ADD TO CART</a>
+      </div>
+  
+    
+    </div><!--ending of product6-->
+     
+     
+
+  
+
+   </div><!--Ending of innner flex section-3-->
+
+  
+
+
+
+
+
+
+
+</div><!--End of mainflex section-2-->
+
+</div><!--Ending of text-align-->
+
+<!--=================================================================================-->
+<!--=================================================================================-->
+    
+
+    
+
+
+    
+
+    
+
+
+     <!-- Include Bootstrap JavaScript (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./JavaScript/index.js"></script>
+</body>
+</html>
